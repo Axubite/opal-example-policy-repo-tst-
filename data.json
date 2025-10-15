@@ -1,14 +1,14 @@
 {
   "users": {
     
-    "Alice": {
+    "alice": {
       "roles": ["admin"],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     },
-   "Sander": {
+   "sander": {
       "roles": ["admin"],
       "location": {
         "country": "LI",
