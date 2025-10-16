@@ -32,42 +32,42 @@
       "roles": ["nurse"],
       "location": {
         "country": "JP",
-        "ip": "198.51.100.200"
+        "ip": "198.51.100.25"
       }
     },
     "jessie_team_rocket": {
       "roles": ["villain"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.13"
+        "ip": "192.0.2.25"
       }
     },
     "james_team_rocket": {
       "roles": ["villain"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.15"
+        "ip": "192.0.2.25"
       }
     },
     "meowth": {
       "roles": ["villain"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.16"
+        "ip": "192.0.2.25"
       }
     },
     "cynthia": {
       "roles": ["league_champion", "researcher"],
       "location": {
         "country": "JP",
-        "ip": "203.0.113.140"
+        "ip": "203.0.113.25"
       }
     },
     "sander": {
       "roles": ["league_champion", "trainer"],
       "location": {
         "country": "NL",
-        "ip": "203.0.113.123"
+        "ip": "190.0.06.25"
       }
     }
   },
