@@ -1,99 +1,131 @@
 {
   "users": {
-    
-    "alice": {
-      "roles": ["admin"],
+    "ash_ketchum": {
+      "roles": ["trainer"],
       "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
+        "country": "JP",
+        "ip": "203.0.113.25"
       }
     },
-   "sander": {
-      "roles": ["admin"],
+    "misty_waterflower": {
+      "roles": ["gym_leader"],
       "location": {
-        "country": "LI",
-        "ip": "4.4.4.4"
+        "country": "JP",
+        "ip": "198.51.100.14"
       }
     },
-    
-    "bob": {
-      "roles": ["employee", "billing"],
+    "brock_harrison": {
+      "roles": ["gym_leader", "breeder"],
       "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
+        "country": "JP",
+        "ip": "192.0.2.77"
       }
     },
-     "sunil": {
-      "roles": ["guest"],
+    "professor_oak": {
+      "roles": ["professor", "researcher"],
       "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
+        "country": "JP",
+        "ip": "203.0.113.88"
       }
     },
-    "eve": {
-      "roles": ["customer"],
+    "nurse_joy": {
+      "roles": ["nurse"],
       "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
+        "country": "JP",
+        "ip": "198.51.100.200"
+      }
+    },
+    "jessie_team_rocket": {
+      "roles": ["villain"],
+      "location": {
+        "country": "JP",
+        "ip": "192.0.2.13"
+      }
+    },
+    "james_team_rocket": {
+      "roles": ["villain"],
+      "location": {
+        "country": "JP",
+        "ip": "192.0.2.15"
+      }
+    },
+    "meowth": {
+      "roles": ["villain"],
+      "location": {
+        "country": "JP",
+        "ip": "192.0.2.16"
+      }
+    },
+    "cynthia": {
+      "roles": ["league_champion", "researcher"],
+      "location": {
+        "country": "JP",
+        "ip": "203.0.113.140"
+      }
+    },
+    "sander": {
+      "roles": ["league_champion", "trainer"],
+      "location": {
+        "country": "NL",
+        "ip": "203.0.113.123"
       }
     }
   },
   "role_permissions": {
-    "customer": [
-      {
-        "action": "read",
-        "type": "dog"
-      },
-      {
-        "action": "read",
-        "type": "cat"
-      },
-      {
-        "action": "adopt",
-        "type": "dog"
-      },
-      {
-        "action": "adopt",
-        "type": "cat"
-      }
+    "trainer": [
+      { "action": "read", "type": "pokedex" },
+      { "action": "catch", "type": "pokemon" },
+      { "action": "train", "type": "pokemon" },
+      { "action": "battle", "type": "gym" },
+      { "action": "trade", "type": "pokemon" }
     ],
-    "employee": [
-      {
-        "action": "read",
-        "type": "dog"
-      },
-      {
-        "action": "read",
-        "type": "cat"
-      },
-      {
-        "action": "update",
-        "type": "dog"
-      },
-      {
-        "action": "update",
-        "type": "cat"
-      }
+    "gym_leader": [
+      { "action": "read", "type": "gym" },
+      { "action": "update", "type": "gym_rules" },
+      { "action": "battle", "type": "challenger" },
+      { "action": "award", "type": "badge" }
     ],
-    "billing": [
-      {
-        "action": "read",
-        "type": "finance"
-      },
-      {
-        "action": "update",
-        "type": "finance"
-      }
+    "professor": [
+      { "action": "read", "type": "pokedex" },
+      { "action": "update", "type": "pokedex" },
+      { "action": "grant", "type": "starter_pokemon" },
+      { "action": "analyze", "type": "egg" }
     ],
-    "guest": [
-     {
-       "action": "read",
-       "type": "cat"
-     },
-     {
-       "action": "read",
-       "type": "finance"
-     }
+    "researcher": [
+      { "action": "analyze", "type": "fossil" },
+      { "action": "read", "type": "habitat_data" },
+      { "action": "update", "type": "research_notes" }
+    ],
+    "nurse": [
+      { "action": "heal", "type": "pokemon" },
+      { "action": "read", "type": "medical_record" },
+      { "action": "update", "type": "medical_record" }
+    ],
+    "breeder": [
+      { "action": "hatch", "type": "egg" },
+      { "action": "feed", "type": "berries" },
+      { "action": "breed", "type": "pokemon" },
+      { "action": "trade", "type": "pokemon" }
+    ],
+    "villain": [
+      { "action": "steal", "type": "pokemon" },
+      { "action": "poach", "type": "rare_pokemon" },
+      { "action": "tamper", "type": "gym" }
+    ],
+    "rival": [
+      { "action": "battle", "type": "trainer" },
+      { "action": "taunt", "type": "trainer" },
+      { "action": "read", "type": "pokedex" }
+    ],
+    "daycare": [
+      { "action": "hatch", "type": "egg" },
+      { "action": "train", "type": "pokemon" },
+      { "action": "return", "type": "pokemon" }
+    ],
+    "league_champion": [
+      { "action": "read", "type": "leaderboard" },
+      { "action": "battle", "type": "challenger" },
+      { "action": "award", "type": "title" }
     ]
   }
 }
