@@ -4,49 +4,49 @@
       "roles": ["trainer"],
       "location": {
         "country": "JP",
-        "ip": "203.0.93.15"
+        "ip": "203.0.06.25"
       }
     },
     "misty_waterflower": {
       "roles": ["gym_leader"],
       "location": {
         "country": "JP",
-        "ip": "198.51.100.15"
+        "ip": "198.51.06.25"
       }
     },
     "brock_harrison": {
       "roles": ["gym_leader", "breeder"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.15"
+        "ip": "192.0.06.25"
       }
     },
     "professor_oak": {
       "roles": ["professor", "researcher"],
       "location": {
         "country": "JP",
-        "ip": "203.0.113.15"
+        "ip": "203.0.06.25"
       }
     },
     "nurse_joy": {
       "roles": ["nurse"],
       "location": {
         "country": "JP",
-        "ip": "198.51.100.15"
+        "ip": "198.51.06.25"
       }
     },
     "jessie_team_rocket": {
       "roles": ["villain"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.15"
+        "ip": "192.0.06.25"
       }
     },
     "james_team_rocket": {
       "roles": ["villain"],
       "location": {
         "country": "JP",
-        "ip": "192.0.2.15"
+        "ip": "192.0.06.25"
       }
     },
     "meowth": {
