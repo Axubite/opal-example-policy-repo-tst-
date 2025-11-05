@@ -24,7 +24,7 @@
     "professor_oak": {
       "roles": ["professor", "researcher"],
       "location": {
-        "country": "JP",
+        "country": "CH",
         "ip": "203.0.06.25"
       }
     },
