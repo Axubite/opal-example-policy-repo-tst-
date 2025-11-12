@@ -1,0 +1,14 @@
+{
+  "scopes": [
+    {
+      "name": "test-scope",
+      "description": "Temporary scope for testing",
+      "resources": [
+        {
+          "type": "document",
+          "actions": ["read", "write"]
+        }
+      ]
+    }
+  ]
+}
