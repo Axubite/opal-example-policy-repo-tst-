@@ -1,0 +1,48 @@
+
+[
+  {
+    "scope_id": "default",
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["."],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": false,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
+    }
+  },
+  {
+    "scope_id": "Sander",
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["finance"],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": false,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
+    }
+  },
+  {
+    "scope_id": "GRC",
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["hr"],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": false,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
+    }
+  }
+]
