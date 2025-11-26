@@ -2,38 +2,47 @@
 [
   {
     "scope_id": "default",
-    "manifest": {
-      "policy": {
-        "sources": [
-          {
-            "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git"
-          }
-        ]
-      }
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["."],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": true,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
     }
   },
   {
     "scope_id": "Sander",
-    "manifest": {
-      "policy": {
-        "sources": [
-          {
-            "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git"
-          }
-        ]
-      }
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["."],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": true,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
     }
   },
   {
     "scope_id": "GRC",
-    "manifest": {
-      "policy": {
-        "sources": [
-          {
-            "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git"
-          }
-        ]
-      }
+    "policy": {
+      "source_type": "git",
+      "url": "https://github.com/Axubite/opal-example-policy-repo-tst-.git",
+      "directories": ["."],
+      "extensions": [".rego", ".json"],
+      "manifest": ".manifest",
+      "poll_updates": true,
+      "branch": "master"
+    },
+    "data": {
+      "entries": []
     }
   }
 ]
